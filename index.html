@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olena Datso - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body class="bg-light">
+  <header class="container">
+    <div class="row flex-row-reverse  flex-md-row justify-content-md-end">
+      <div class="col-auto col-lg-10 d-flex justify-content-end">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <div class="container-fluid position-relative">
+            <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#myDdropdownMenu">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </button>
+            <div id="myDdropdownMenu" class="myDdropdownMenu">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Digital Assets</a>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proj">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#digital">Digital Assets</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-auto mt-2">
+        <button type="button" class="btn btn-dark rounded-0 h-4" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          data-whatever="@getbootstrap">
+          Let's talk
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Recipient:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main>
+
+    <section class="hero vh-100 container">
+      <div class="row d-flex flex-column flex-md-row justify-content-between">
+        <div class="hello col-12 col-md-6 pt-md-9 pt-6 position-relative">
+          <p class="hello-text">Hello!<br> I'm Olena</p>
+          <svg class="position-absolute">
+            <path id="arc" d="M20,20 A120,120 50 0,0 650,0" fill="transparent" />
+            <text fill="black">
+              <textPath id="textPath" href="#arc" startOffset="20%">
+                Full Stack Developer based in ALberta
+              </textPath>
+            </text>
+          </svg>
+        </div>
+
+        <div class=" col-12 col-md-5 hero-photoWrap d-flex justify-content-center">
+          <img class="hero-photo" src="./images/Olena_Datso_photo_centered.jpeg" alt="hero photo"/>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="briefs container-fluid  bg-black ">
+      <div class="container py-6">
+        <ol class="breif-ol">
+          <div class="row flex-column text-light flex-md-row py-6 justify-content-between">
+            <div class="col-12 col-md-6 col-lg-4 p-4">
+              <li>
+                <div>
+                  <h6>Work</h6>
+                  <p>I have 5 years of experience in graphic design, which helps me craft visually appealing and user-friendly interfaces
+                  </p>
+                </div>
+              </li>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4  p-4">
+              <li>
+                <div>
+                  <h6>Passion</h6>
+                  <p> I love turning ideas into reality using HTML, CSS, JavaScript, and React.
+                  </p>
+                </div>
+              </li>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4  p-4">
+              <li>
+                <div>
+                  <h6>Life</h6>
+                  <p>I live and work in sunny Calgary, Alberta.
+                  </p>
+                </div>
+              </li>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4  p-4">
+              <li>
+                <div>
+                  <h6>Learning</h6>
+                  <p>I enjoy expanding my skills, currently focusing on Python and full-stack development.
+                  </p>
+                </div>
+              </li>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4  p-4">
+              <li class="breif-li">
+                <h6 class="breif-header">Creativity</h6>
+                <p class="breif-p">I thrive on finding innovative solutions to technical challenges.
+                </p>
+              </li>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 p-4">
+              <li>
+                <div>
+                  <h6>Social</h6>
+                  <p>Proud participant of the Women in Tech program, empowering diversity in tech.
+                  </p>
+                </div>
+              </li>
+            </div>
+          </div>
+      </div>
+      </ol>
+      </div>
+    </section>
+
+    <section class="projects container py-6">
+      <h2 class="proj-h2 text-black">My Projects</h2>
+      <dl class="d-flex flex-column gap-5">
+        <div class="proj-card row text-light p-5 py-6">
+          <div id="proj" class="row">
+            <div class="col-12 proj-type">
+              study project
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <dt class="proj-name">Project A</dt>
+            </div>
+            <div class="col-12 col-md-6">
+              <dd>
+                <p class="proj-descr">A web application built with React and Node.js that helps users manage tasks
+                  efficiently.</p>
+                <p class="proj-descr"><strong>Technologies:</strong> React, Node.js, MongoDB</p>
+                <a class="proj-link" href="https://github.com/ElenaDatso" target="_blank">
+                  <img alt="git icon" width="20" src="./images/git.png" /></a>
+              </dd>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card row text-light p-5 py-6">
+          <div class="row">
+            <div class="col-12 proj-type">
+              study project
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <dt class="proj-name">Project B</dt>
+            </div>
+            <div class="col-12 col-md-6">
+              <dd>
+                <p class="proj-descr">A web application built with React and Node.js that helps users manage tasks
+                  efficiently.</p>
+                <p class="proj-descr"><strong>Technologies:</strong> React, Node.js, MongoDB</p>
+                <a class="proj-link" href="https://github.com/yourusername/project-a" target="_blank">
+                  <img alt="git icon" width="20" src="./images/git.png" /></a>
+              </dd>
+            </div>
+          </div>
+        </div>
+
+      </dl>
+    </section>
+
+    <section id="about" class="container-fluid about-me bg-black">
+      <div class="container py-6">
+        <div class="row">
+          <div class="col-12 text-light">
+            <h2 class="about-me-h2">About me</h2>
+            <p class="about-me-quot">I look at usual things with my <img
+                src="./images/b94dc87b198ec82e5a932661b4eeb325.jpg" width="150" height="auto" alt="coding image">unusual
+              eyes</p>
+            <p class="about-me-text">Hi there!<br>
+              My name is <span class="fw-bold">Olena Datso</span>, and I am a passionate Full Stack Developer with over
+              5 years of
+              experience in graphic design. I thrive on creating visually stunning and user-friendly digital experiences
+              that combine aesthetics with functionality.
+
+              I specialize in modern web technologies like <span class="text-decoration-underline">HTML, CSS,
+                JavaScript, and React</span>, and I’m constantly
+              exploring ways to improve my skills. While I used to focus solely on <span class="fst-italic">designing
+                visuals</span>, <img src="./images/istockphoto-923888644-612x612.jpg" width="150" height="auto"
+                alt="design illustration">
+              I’ve transitioned
+              to coding interfaces to turn those designs into reality—an evolution I absolutely love.
+
+              Fun fact: I once considered a career in illustration, but I realized I love crafting interactive user
+              experiences even more. <span class=".text-decoration-line-through"> So much for becoming a famous
+                artist!</span>
+
+              When I’m not coding or designing, you’ll probably find me enjoying a good book, exploring the beauty of
+              Calgary, or diving into new challenges that inspire creativity.
+
+              Let’s create something amazing together!
+              <img src="./images/wall-murals-seamless-geometric-pattern-simple-vector-black-and-white-stripe.jpg.jpg"
+                width="150" height="auto" alt="design illustration">
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="container text-black py-6">
+    <div class="row align-items-end flex-column-reverse flex-md-row">
+    <nav class="col-12 col-md-6">
+      <ul class="d-flex gap-5">
+        <li><a href="#proj">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#digital">Digital Assets</a></li>
+      </ul>
+    </nav>
+
+<div class="col-12 col-md-6">
+  <p class="contact-drop-me fw-bold">Drop me a line!</p>
+  <form action="https://example.com/submit-form" method="POST">
+    <div class="row mb-3 gap-3">
+      <div class="col-md-6">
+        <input type="text" id="name" name="name" class="form-control custom-input" placeholder="Enter your name" required>
+      </div>
+      <div class="col-md-6">
+        <input type="email" id="email" name="email" class="form-control custom-input" placeholder="Enter your email" required>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <textarea id="message" name="message" rows="5" class="form-control custom-input" placeholder="Write your message" required></textarea>
+    </div>
+
+    <button type="submit" class="btn custom-btn w-100">Send</button>
+  </form>
+</div>
+
+    </div>
+    <hr />
+    <div class="row justify-content-between">
+      <div class="col-12 col-md-5 d-flex  justify-content-center justify-content-md-start">
+      <p>&copy; 2024 Olena Datso. All rights reserved</p>
+      </div>
+      <div class="col-12 col-md-5 d-flex gap-2 justify-content-center justify-content-md-end">
+        <a href="https://github.com/ElenaDatso" target="_blank"><i class="fa-brands fa-github text-black"></i></a>
+        <a href="https://www.linkedin.com/in/olena-datso/" target="_blank"><i class="fa-brands fa-linkedin text-black"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/0ff548c58c.js" crossorigin="anonymous"></script>
+  <script>
+    const exampleModal = document.getElementById('exampleModal');
+
+    exampleModal.addEventListener('show.bs.modal', (event) => {
+      const button = event.relatedTarget;
+      const recipient = button.getAttribute('data-whatever');
+      const modalTitle = exampleModal.querySelector('.modal-title');
+      const modalBodyInput = exampleModal.querySelector('.modal-body input');
+
+      modalTitle.textContent = `New message to ${recipient}`;
+      modalBodyInput.value = recipient;
+    });
+
+    function adjustStartOffset() {
+      const textPath = document.getElementById('textPath');
+      const screenWidth = window.innerWidth;
+
+      if (screenWidth <= 500) {
+        textPath.setAttribute('startOffset', '38%');
+      } else if (screenWidth <= 768) {
+        textPath.setAttribute('startOffset', '34%');
+      } else if (screenWidth <= 992) {
+        textPath.setAttribute('startOffset', '34%');
+      } else if (screenWidth <= 1200) {
+        textPath.setAttribute('startOffset', '30%');
+      } else if (screenWidth <= 1400) {
+        textPath.setAttribute('startOffset', '30%');
+      }
+      else {
+        textPath.setAttribute('startOffset', '20%');
+      }
+    }
+
+    window.addEventListener('resize', adjustStartOffset);
+
+    adjustStartOffset();
+  </script>
+</body>
+
+</html>
